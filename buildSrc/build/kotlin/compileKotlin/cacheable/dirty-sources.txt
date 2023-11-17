@@ -1,0 +1,2 @@
+C:\Users\Nadir\AndroidStudioProjects\NewsInShort\buildSrc\src\main\java\Dependencies.kt
+C:\Users\Nadir\AndroidStudioProjects\NewsInShort\buildSrc\src\main\java\Versions.kt
