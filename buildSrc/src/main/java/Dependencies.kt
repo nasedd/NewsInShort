@@ -5,7 +5,7 @@ object Dependencies {
     val material by lazy { "com.google.android.material:material:${Versions.material}" }
     val lifecycleRuntimeKtx by lazy { "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleRuntimeKtx }" }
     val activityCompose by lazy { "androidx.activity:activity-compose:${Versions.activityCompose}" }
-    val composeBom by lazy { "androidx.compose:compose-bom:${Versions.composeBom}" }
+    val composeBom by lazy { "androidx.compose:compose-bom:${Versions.compose}" }
     val composeUi by lazy { "androidx.compose.ui:ui:" }
     val composeUiGraphics by lazy { "androidx.compose.ui:ui-graphics:" }
     val composeUiToolingPreview by lazy { "androidx.compose.ui:ui-tooling-preview" }
@@ -16,9 +16,8 @@ object Dependencies {
     val composeUiTestManifest by lazy { "androidx.compose.ui:ui-test-manifest:${Versions.compose}" }
     val lifecycleViewModelKtx by lazy { "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleViewModelKtx }" }
 
+}
 
-
-
-
-
+object Modules {
+    const val utilities = ":utilities"
 }
