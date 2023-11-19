@@ -64,4 +64,12 @@ dependencies {
     implementation(Dependencies.composeMaterial3)
 
     implementation(project(Modules.utilities))
+
+    implementation(Dependencies.hiltAndroid)
+    kapt(Dependencies.hiltCompiler)
+    kapt(Dependencies.hiltAndroidCompiler)
+}
+
+kapt {
+    correctErrorTypes = true 
 }
