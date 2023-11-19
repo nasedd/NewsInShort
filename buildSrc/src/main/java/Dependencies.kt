@@ -6,8 +6,8 @@ object Dependencies {
     val lifecycleRuntimeKtx by lazy { "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleRuntimeKtx }" }
     val activityCompose by lazy { "androidx.activity:activity-compose:${Versions.activityCompose}" }
     val composeBom by lazy { "androidx.compose:compose-bom:${Versions.compose}" }
-    val composeUi by lazy { "androidx.compose.ui:ui:" }
-    val composeUiGraphics by lazy { "androidx.compose.ui:ui-graphics:" }
+    val composeUi by lazy { "androidx.compose.ui:ui" }
+    val composeUiGraphics by lazy { "androidx.compose.ui:ui-graphics" }
     val composeUiToolingPreview by lazy { "androidx.compose.ui:ui-tooling-preview" }
     val composeMaterial3 by lazy { "androidx.compose.material3:material3" }
     val navigationCompose by lazy { "androidx.navigation:navigation-compose:${Versions.navigationCompose}" }
@@ -17,8 +17,10 @@ object Dependencies {
     val lifecycleViewModelKtx by lazy { "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleViewModelKtx }" }
 
     val hiltAndroid by lazy { "com.google.dagger:hilt-android:${Versions.hilt }" }
-    val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hiltCompiler }" }
+    val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hilt }" }
     val hiltCompiler by lazy { "androidx.hilt:hilt-compiler:${Versions.hiltCompiler }" }
+
+    val hiltNavigationCompose by lazy { "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose }" }
 
 
 }

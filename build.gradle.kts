@@ -5,3 +5,4 @@ plugins {
     id("com.android.library") version "8.1.3" apply false
     id("com.google.dagger.hilt.android") version "2.48" apply false
 }
+

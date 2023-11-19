@@ -56,11 +56,11 @@ dependencies {
     implementation(Dependencies.coreKtx)
     implementation(Dependencies.lifecycleRuntimeKtx)
     implementation(Dependencies.activityCompose)
-    implementation(Dependencies.composeBom)
-    implementation(Dependencies.composeUi)
+    implementation(platform(Dependencies.composeBom))
     implementation(Dependencies.composeUi)
     implementation(Dependencies.composeUiGraphics)
     implementation(Dependencies.composeUiToolingPreview)
+    implementation(Dependencies.composeMaterial3)
     implementation(Dependencies.composeMaterial3)
 
     implementation(project(Modules.utilities))
@@ -68,8 +68,10 @@ dependencies {
     implementation(Dependencies.hiltAndroid)
     kapt(Dependencies.hiltCompiler)
     kapt(Dependencies.hiltAndroidCompiler)
+
+    implementation(Dependencies.hiltNavigationCompose)
 }
 
 kapt {
-    correctErrorTypes = true 
+    correctErrorTypes = true
 }
